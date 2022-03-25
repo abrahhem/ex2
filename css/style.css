@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header, main, footer, nav, aside, section {
+	display: block;
+}
+
+body {
+	font-family: "Mulish", sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header, main, section {
+	padding: 20px;
+}
+
+main {
+	margin-top: 40px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo .logo-image {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	float: left;
+	height: 41px;
+	width: 41px;
+}
+
+.logo h1 {
+	margin-left: 16px;
+	font-weight: 700px;
+	font-size: 24px;
+	color: #233348;
+}
+
+header .logo h1 {
+	color: black;
+}
+
+footer .logo h1 {
+	color: white;
+}
+
+nav a {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1F1534;
+	text-decoration: none;
+	opacity: 0.5;
+	padding: 16px;
+	cursor: pointer;
+}
+
+nav a:hover {
+	opacity: 0.8;
+	color: #ff6977;
+}
+
+.selected {
+	opacity: 1;
+	color: #ff6977;
+	font-weight: bold;
+}
+
+.group {
+	display: flex;
+    align-items: flex-start;
+	background-image: url("../images/group.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 41px;
+}
+
+.pagetitle {
+	margin-top: 5px;
+	margin-left: 25px;
+	font-size: 42px;
+	line-height: 53px;
+	color: #1F1534;
+}
+
+.homepage main img {
+	margin-top: 14px;
+}
+
+.homepage main p {
+	width: 700px;
+}
+
+.text {
+	margin-top: 14px;
+	width: 1050px;
+}
+
+
+h2 {
+	margin-top: 63px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+}
+
+p {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	color: #7D7987;
+}
+
+.homepage section {
+	margin-top: 80px;
+}
+
+.mini_rect {
+	width: 56px;
+	height: 2px;
+	margin-left: 78px;
+	margin-top: 14px;
+	background: #000000;
+	border-radius: 5px;
+}
+
+.rectangle {
+	height: 56px;
+	width: 200px;
+	border-radius: 55px;
+	text-align: center;
+	font-size: x-large;
+	cursor: pointer;
+}
+
+.homepage main .rectangle{
+	margin-top: 23px;
+	background: #ff6977;
+	border-style: none;
+	color: #FFFFFF;
+}
+
+section .rectangle {
+	background: #ffffff;
+	margin-top: 30px;
+	border: 2px solid #ff6977;
+	box-sizing: border-box;
+	color: #ff6977;
+}
+
+.area {
+	cursor: pointer;
+	display: inline-block;
+	width: 350px;
+	box-shadow: 10px 40px 50px rgb(229, 233, 246);
+	border-radius: 20px;
+	margin: 25px;
+}
+
+.homepage .area {
+	padding: 40px;
+	height: 354px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	height: 100%;
+}
+
+.testimonials .content h3 {
+	height: 60px;
+}
+
+.testimonials .content {
+	padding: 30px 35px;
+}
+
+.testimonials .content div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.testimonials .content div img {
+	width: 14px;
+	margin-left: 8px;
+}
+
+.testimonials .area > img {
+	border-top-right-radius: inherit;
+	border-top-left-radius: inherit;
+	height: 232px;
+	width: 100%;
+}
+
+.testimonials section {
+	margin-left: 25px;
+}
+
+.testimonials section h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 56px;
+	text-align: left;
+}
+
+.testimonials span {
+	color: #4089ED;
+}
+
+.content h3 {
+	margin: 0;
+	font-size: 24px;
+	color: #000000;
+}
+
+.homepage .content p {
+	height: 96px;
+	margin: 0;
+}
+.testimonials .content p {
+	height: 158px;
+}
+
+footer {
+	padding: 25px;
+	margin-top: 200px;
+	background: linear-gradient(183.41deg, #ff6977 -8.57%, #ffadb5 82.96%);
+}
+
+footer a {
+	color: white;
+	font-size: 24px;
+	margin-right: 24px;
+}
+
+footer .logo {
+	margin: 150px 0;
+}
+
+footer p {
+	margin: 0;
+	color: white;
+}
+
+.testimonials .area_main {
+	margin-top: 35px;
+	width: 1120px;
+	background: linear-gradient(183.41deg, #ff6977 -8.57%, #ffadb5 82.96%);
+	border-radius: 24px;
+	padding: 25px;
+}
+
+.testimonials .mini_rect {
+	margin-left: 246px;
+	margin-top: 10px;
+	background: #ffffff;
+}
+
+.area_main h1, .area_main h2, .area_main p {
+	color: white;
+}
